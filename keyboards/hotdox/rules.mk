@@ -36,4 +36,7 @@ SRC =  matrix.c     \
 	   i2c_master.c \
        left.c
 
+
+EXTRAFLAGS        += -flto # static linking save memory, errors out when macro/function actions enabled
+
 LAYOUTS = ergodox

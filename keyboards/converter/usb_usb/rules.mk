@@ -30,3 +30,4 @@ LEADER_ENABLE = yes
 SRC = custom_matrix.cpp
 
 DEFAULT_FOLDER = converter/usb_usb/hasu
+EXTRAFLAGS        += -flto
