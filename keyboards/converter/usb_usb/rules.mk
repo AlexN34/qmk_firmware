@@ -24,9 +24,9 @@ EXTRAKEY_ENABLE  = yes  # Audio control and System control(+450)
 #BACKLIGHT_ENABLE = yes
 USB_HID_ENABLE   = yes
 CUSTOM_MATRIX    = yes
+LEADER_ENABLE = yes
+# TAP_DANCE_ENABLE = yes
 
 SRC = custom_matrix.cpp
 
 DEFAULT_FOLDER = converter/usb_usb/hasu
-
-DEBOUNCE_TYPE = sym_g
